@@ -1,0 +1,66 @@
+.left {
+  float: left;
+  margin: 5%;
+  padding: 2%;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 40%;
+}
+img {
+  width: 30%;
+}
+.btn {
+  background-color: rgb(216, 88, 184);
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+}
+.fist-div {
+  background-image: url("personal-website/header-bg.png");
+  background-repeat: no-repeat;
+  height: 500px;
+  background-size: contain;
+  width: 100%;
+  border: 1px solid red;
+}
+.second-right {
+  float: left;
+  /* margin: 5%; */
+  padding: 2%;
+  width: 40%;
+}
+.second-left {
+  margin-top: 15%;
+}
+.dill {
+  background-image: url("personal-website/biography-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  border: 1px solid yellow;
+ 
+}
+.card-deck {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+}
+.card {
+  width: 360px;
+}
+.emon {
+  font-size: 30px;
+}
+
+.emon-san {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid green;
+  height: 100%;
+  width: 100%;
+  margin: 0,auto;
+}
