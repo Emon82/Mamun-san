@@ -21,7 +21,7 @@ img {
   height: 500px;
   background-size: contain;
   width: 100%;
-  border: 1px solid red;
+
 }
 .second-right {
   float: left;
@@ -38,7 +38,7 @@ img {
   background-size: cover;
   height: 500px;
   width: 100%;
-  border: 1px solid yellow;
+ 
  
 }
 .card-deck {
@@ -59,8 +59,23 @@ img {
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  border: 2px solid green;
+
   height: 100%;
   width: 100%;
   margin: 0,auto;
+}
+.naimul {
+ display: flex;
+ flex-flow: column;
+ justify-content: center;
+ align-items: center;
+}
+.btn-b {
+  width: 500px;
+  height: 100px;
+  background-color: #EC4F8F;
+  border-radius: 5px;
+}
+.mamun {
+  margin: 50px;
 }
